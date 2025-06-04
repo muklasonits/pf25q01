@@ -64,7 +64,7 @@ public class TTTConsoleNonOO {
                 } else if (ans == 'y' || ans == 'Y'){
                     invalid = false;
                 } else{
-                    System.out.println("invalid input, try again");
+                    System.out.println("invalid input, please try again");
                 }
             }while(invalid);
 
