@@ -1,13 +1,15 @@
+package TTT;
+
 /**
- * The Board class models the TTT game-board of 3x3 cells.
+ * The TTT.Board class models the TTT game-board of 3x3 cells.
  */
-public class Board {  // save as "Board.java"
+public class Board {  // save as "TTT.Board.java"
     // Define named constants for the grid
     public static final int ROWS = 3;
     public static final int COLS = 3;
 
     // Define properties (package-visible)
-    /** A board composes of [ROWS]x[COLS] Cell instances */
+    /** A board composes of [ROWS]x[COLS] TTT.Cell instances */
     Cell[][] cells;
 
     /** Constructor to initialize the game board */

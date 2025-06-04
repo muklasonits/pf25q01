@@ -1,7 +1,9 @@
+package TTT;
+
 /**
- * The Cell class models each individual cell of the TTT 3x3 grid.
+ * The TTT.Cell class models each individual cell of the TTT 3x3 grid.
  */
-public class Cell {  // save as "Cell.java"
+public class Cell {  // save as "TTT.Cell.java"
     // Define properties (package-visible)
     /** Content of this cell (CROSS, NOUGHT, NO_SEED) */
     Seed content;
